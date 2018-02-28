@@ -21,6 +21,8 @@ class AppDelegate: UIResponder {
         
         super.init()
         
+        print("Initializaing AppDelegate...")
+        
         locationAuthorization.delegate = self
     }
 }
